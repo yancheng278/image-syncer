@@ -12,8 +12,8 @@ on:
 
 env:
   IMAGE_SYNCER_VERSION: v1.5.4
-  USERNAME: ${{ secrets.ALIYUN_USERNAME }}
-  PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
+  USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+  PASSWORD: ${{ secrets.DOCKERHUB_PASSWORD }}
 
 jobs:
   image-sync:
