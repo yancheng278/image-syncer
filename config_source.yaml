@@ -1,6 +1,6 @@
 auth:
-  registry.cn-shenzhen.aliyuncs.com:
+  registry.cn-hangzhou.aliyuncs.com:
     username: $USERNAME
     password: $PASSWORD
 images:
-   k8s.gcr.io/metrics-server/metrics-server: willdockerhub/metrics-server
+   docker.io/homeassistant/home-assistant:latest: homeassistant/home-assistant
